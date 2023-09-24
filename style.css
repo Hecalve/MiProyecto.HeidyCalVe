@@ -1,63 +1,118 @@
-/* Estilos globales */
-body {
-    font-family: Arial, sans-serif;
+*{
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+    box-sizing: border-box;
 }
-
+html{
+    height: 100%;
+}
+body{
+    min-height: 100%;
+    background-color: aquamarine;
+   font-family: Arial, sans-serif;
+}
 header {
-    background-color: #963385;
+     background-color: rgb(250, 161, 206);
     color: #fff;
     text-align: center;
     padding: 20px;
 }
 
 h1 {
-    margin: 0;
-    font-size: 36px;
+    margin: 1px;;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: darkblue;
 }
 
 h2 {
+    margin: 2%;
+   font-size: xx-large;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   color: blue;
+   text-align: center;
+}
+h3{
     margin: 0;
-    font-size: 24px;
+   font-size: xx-large;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   color: blue;
+   text-align: center;
 }
 
 p {
-    margin: 0;
-    font-size: 18px;
+    margin: 2%;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    text-align: center;
+
 }
 
 /* Estilos para secciones */
 section {
-    background-color: #fff;
+    background-color: #f7d2d2;
     margin: 20px;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
+.section1{
+    width:40%;
+    height: 30%;
+   
+}
+.section2{
+    width: 53% ;
+    height: 110%;
+    position: relative;
+    left: 43%;
+    bottom: 8cm;
+}
 
 /* Estilos para imágenes */
 img {
-    max-width: 100%;
-    height: auto;
+    width: 25%;
+    height: 60%;
+    position: relative;
+    bottom: 6cm;
 }
 
 /* Estilos para iframes de video */
 iframe {
-    width: 100%;
-    height: 315px;
-    margin-top: 10px;
+    width: 50%;
+    height: 400px;
+   position: relative;
+   left: 20%;
+   bottom: 2cm;
+  
 }
 
 /* Estilos para listas */
-ul, ol {
+ul {
     margin: 0;
     padding: 0 0 0 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    position: relative;
+    left: 29%;
+    bottom: -4cm;
 }
 
 li {
     margin-bottom: 5px;
+}
+.left{
+    margin: 0;
+    position: relative;
+    left: 0%;
+    bottom: 0cm;
+}
+ol{
+    margin: 0;
+    padding: 0 0 0 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
 }
 
 /* Estilos para formularios */
@@ -80,7 +135,7 @@ textarea {
 }
 
 input[type="submit"] {
-    background-color: #a30000;
+    background-color: #f30798;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -89,37 +144,50 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: #5b0000;
+    background-color: #db3f7b;
 }
 
 /* Estilos para el footer */
 footer {
-    background-color: #a30000;
+    background-color: rgb(250, 161, 206);
     color: #fff;
     text-align: center;
-    padding: 20px 0;
+    padding: 2px 0;
+}
+.img2{
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 10%;
+    padding: 50px;
 }
 
-footer h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-}
 
-footer ul {
-    list-style: none;
-    padding: 0;
-}
-
-footer ul li {
-    margin-bottom: 5px;
-}
-
-footer ul li a {
-    text-decoration: none;
+h4{
+    text-align: center;
+    font-family: fantasy;background-position: 10%;
+    text-transform: uppercase;
+    background-image: linear-gradient(-225deg,
+    #231557 0%,
+    #44107a 29%,
+    #7c012a 67%,
+    #fff800 100%);
+    background-clip: border-box;
+    background-size: 15% auto;
     color: #fff;
-    font-size: 18px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+        font-size: 30px;
 }
-
-footer ul li a:hover {
-    text-decoration: underline;
+.table1{
+    margin: 0;
+    padding: 2px;
+}
+th{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+}
+td{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
 }
